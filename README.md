@@ -1,7 +1,7 @@
 # Vimachem QA Assignment
 
 ## Part 1 - Vending machine test cases
-See [vending-machine-test-cases.md](vending-machine-test-cases.md).
+Submitted as a separate document, attached to the email.
 
 ## Part 2 - Test automation (Playwright + TypeScript)
 Target: https://thinking-tester-contact-list.herokuapp.com
