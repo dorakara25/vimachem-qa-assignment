@@ -22,7 +22,7 @@ export interface User {
 }
 
 export function newUser(): User {
-  const id = `${Date.now()}${Math.floor(Math.random() * 1000)}`;
+  const id = Date.now() ;
   return {
     firstName: 'Test',
     lastName: 'User',
