@@ -27,3 +27,12 @@ Open the **Actions** tab, pick a run, and download the `playwright-report` artif
 - Page Object Model in `pages.ts`
 - Each test signs up a fresh user with a unique email, so tests are independent and repeatable
 - Test data is generated per run to avoid collisions
+
+
+### Observations
+
+During manual exploration, the Birthdate field accepts values that are well-formed
+but not realistic, such as a future date or a date more than 150 years in the past.
+Only an invalid format (e.g. `31-12-1990`) is rejected with "Birthdate is invalid".
+I did not automate this, since the expected behaviour should be confirmed with the
+product owner first. It would be a good candidate for a follow-up test once the rule is defined.
